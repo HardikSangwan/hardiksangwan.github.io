@@ -6,5 +6,6 @@ Portfolio Under Construction. Image Source: Tate Modern
 # Socials
 
 [Duolingo](https://www.duolingo.com/profile/hsangwan)
-[Lichess] (https://lichess.org/@/hardiksangwan/perf/bullet)
+
+[Lichess](https://lichess.org/@/hardiksangwan/perf/bullet)
 
