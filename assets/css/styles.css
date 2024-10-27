@@ -1,22 +1,3 @@
-.skills ul {
-    list-style-type: none;
-    display: flex;
-    gap: 1rem;
-}
-
-.skills li {
-    cursor: pointer;
-    color: #0f7c90;
-}
-
-.skills div {
-    margin-top: 1rem;
-}
-
-.projects select {
-    margin: 1rem 0;
-}
-
 /* Typography */
 body {
     font-family: 'Roboto', sans-serif;
@@ -30,6 +11,7 @@ h1, h2, h3 {
     color: #1A1A40;
 }
 
+/* Header */
 header nav {
     display: flex;
     justify-content: space-between;
@@ -71,6 +53,14 @@ header nav a:hover {
     margin: 1rem auto;
 }
 
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
 /* Buttons */
 .btn {
     padding: 0.7rem 1.5rem;
@@ -98,31 +88,26 @@ header nav a:hover {
     background-color: #333;
 }
 
-/* Sections */
-.about-section, .highlight {
-    text-align: center;
+/* About Section */
+.about-section {
     padding: 4rem 2rem;
-}
-
-footer {
+    max-width: 800px;
+    margin: auto;
     text-align: center;
-    padding: 1rem;
-    background-color: #333;
-    color: #FFFFFF;
 }
 
-/* Project Cards */
+/* Project Gallery */
 .project-gallery {
-    text-align: center;
     padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
 }
 
 .project-cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 2rem;
-    max-width: 1200px;
-    margin: auto;
 }
 
 .card {
@@ -149,4 +134,20 @@ footer {
 
 .card:hover {
     transform: translateY(-5px);
+}
+
+/* Hobbies Section */
+.hobby-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #FFFFFF;
 }

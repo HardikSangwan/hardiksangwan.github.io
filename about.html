@@ -7,44 +7,66 @@
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
+
+    <!-- Header with Navigation -->
     <header>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="projects.html">Projects</a>
+            <h1>About Me</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="hobbies.html">Hobbies</a></li>
+                <li><a href="resume.html">Resume</a></li>
+            </ul>
         </nav>
     </header>
 
-    <section class="about">
-        <h1>About Me</h1>
-        <p>Hi, I'm Hardik! I’m currently a Machine Learning Engineer at Exabler, focusing on AI-driven data processing pipelines, with prior experience as a Product Engineer at GreenWave Electronics.</p>
-        <p>Throughout my career, I’ve developed diverse skills across roles in electronics recycling, robotic process automation, and business intelligence. My work is supported by a strong educational foundation from Georgia Tech and King’s College London.</p>
-        
-        <div id="skills" class="skills">
-            <h2>Skills & Certifications</h2>
-            <p>Click on each category to learn more:</p>
+    <!-- About Section -->
+    <section id="about">
+        <div class="about-section">
+            <h2>About Me</h2>
+            <!-- Placeholder for Profile Image -->
+            <img src="assets/images/placeholder-profile.png" alt="Profile" class="profile-img">
+
+            <p>I am a Backend Developer & Machine Learning Engineer with extensive experience in building AI-driven systems, cloud architecture, and IoT solutions. I am passionate about using technology for good, especially in areas such as sustainability and medical diagnostics. I hold a Master’s in Engineering from King’s College London, and a Bachelor's from Georgia Tech. Below are some highlights of my journey.</p>
+
+            <!-- Education Section -->
+            <h3>Education</h3>
             <ul>
-                <li @click="selected = 'tech'">Technical Skills</li>
-                <li @click="selected = 'certifications'">Certifications</li>
-                <li @click="selected = 'volunteer'">Volunteer Work</li>
+                <li><strong>King’s College London</strong> - MSc in Engineering with Distinction (2023-2024)
+                    <ul>
+                        <li>Thesis: Explainable AI for Skin Cancer Diagnosis</li>
+                        <li>Specialization: Project Management, Machine Learning, Cloud Architecture</li>
+                    </ul>
+                </li>
+                <li><strong>Georgia Institute of Technology</strong> - BS in Computer Science (2014-2019)
+                    <ul>
+                        <li>Specialization: Machine Learning, Algorithms</li>
+                        <li>Research: Humor Genome Project, Bio Robotics Lab</li>
+                    </ul>
+                </li>
             </ul>
-            <div v-if="selected === 'tech'">
-                <p>Python, AWS, SQL, Vue.js, Docker, FastAPI, TensorFlow, LLMs</p>
-            </div>
-            <div v-if="selected === 'certifications'">
-                <p>AWS Certified Professional Solutions Architect</p>
-            </div>
-            <div v-if="selected === 'volunteer'">
-                <p>AI for Good - Data Engineering for Environmental Sustainability (FruitPunch.ai)</p>
-            </div>
+
+            <!-- Certifications -->
+            <h3>Certifications</h3>
+            <ul>
+                <li>Amazon Web Services (AWS) Solutions Architect - Professional</li>
+                <li>Amazon Web Services (AWS) Solutions Architect - Associate</li>
+            </ul>
+
+            <!-- Work Experience Section -->
+            <h3>Work Experience</h3>
+            <ul>
+                <li><strong>Exabler</strong> – Backend Developer & Machine Learning Engineer (2024-Present)</li>
+                <li><strong>GreenWave Electronics</strong> – Product Engineer II (2020-2022)</li>
+                <li><strong>The Home Depot</strong> – Engineering Apprentice (2016-2018)</li>
+            </ul>
         </div>
     </section>
 
+    <!-- Footer -->
     <footer>
         <p>© 2024 Hardik Sangwan | <a href="mailto:hardik.sngn@gmail.com">Contact Me</a></p>
     </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
-    <script src="assets/js/app.js"></script>
 </body>
 </html>
