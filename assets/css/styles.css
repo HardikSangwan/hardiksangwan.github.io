@@ -1,0 +1,18 @@
+.skills ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.skills li {
+    cursor: pointer;
+    color: #0f7c90;
+}
+
+.skills div {
+    margin-top: 1rem;
+}
+
+.projects select {
+    margin: 1rem 0;
+}
