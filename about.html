@@ -5,6 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About | Hardik Sangwan</title>
     <link rel="stylesheet" href="assets/css/styles.css">
+    <style>
+        .image-container {
+            width: 100%;
+            height: 200px;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 8px;
+            background-color: #f4f7f6;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .about-content img {
+            margin: 15px 0;
+        }
+    </style>
 </head>
 <body>
 
@@ -29,17 +52,33 @@
             <h2>About Me</h2>
             <p>I am a Machine Learning Engineer with a strong foundation in computer science and mechanical engineering. I have a Master’s in Engineering with Distinction from King’s College London, where I focused on explainable AI for medical applications, and a Bachelor’s from Georgia Tech, specializing in machine learning and robotics. My career and research are centered on leveraging technology for sustainability, healthcare, and impactful AI solutions.</p>
 
-            <div class="about-images">
-                <img src="assets/images/about_1.jpg" alt="About Hardik">
-                <img src="assets/images/about_2.jpg" alt="Professional work">
+            <!-- Image Collage -->
+            <div class="image-collage">
+                <div class="image-container">
+                    <img src="assets/images/about_1.jpg" alt="About Hardik">
+                </div>
+                <div class="image-container">
+                    <img src="assets/images/about_2.jpg" alt="Professional work">
+                </div>
             </div>
 
             <h3>Key Academic Coursework</h3>
             <div class="coursework-gallery">
-                <img src="assets/images/coursework_grad_projectmgmt.png" alt="Project Management">
-                <img src="assets/images/coursework_grad_controls_1.png" alt="Controls">
-                <img src="assets/images/coursework_grad_sensors.jpg" alt="Sensors coursework">
-                <img src="assets/images/coursework_undergrad_controls.png" alt="Undergrad controls">
+                <div class="image-container">
+                    <img src="assets/images/coursework_grad_projectmgmt.png" alt="Project Management">
+                </div>
+                <div class="image-container">
+                    <img src="assets/images/coursework_grad_controls_1.png" alt="Graduate coursework - Controls">
+                </div>
+                <div class="image-container">
+                    <img src="assets/images/coursework_grad_sensors.jpg" alt="Sensors coursework">
+                </div>
+                <div class="image-container">
+                    <img src="assets/images/coursework_undergrad_controls.png" alt="Undergrad Controls">
+                </div>
+                <div class="image-container">
+                    <img src="assets/images/coursework_undergrad_AlgorithmAnalysis.png" alt="Algorithm Analysis coursework">
+                </div>
             </div>
         </div>
     </section>
@@ -48,5 +87,6 @@
     <footer>
         <p>© 2024 Hardik Sangwan | <a href="mailto:hardik.sngn@gmail.com">Contact Me</a></p>
     </footer>
+
 </body>
 </html>

@@ -3,9 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hardik Sangwan | Machine Learning Engineer</title>
+    <title>Home | Hardik Sangwan</title>
     <link rel="stylesheet" href="assets/css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Helvetica+Neue:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        .image-container {
+            width: 100%;
+            height: 200px;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 8px;
+            background-color: #f4f7f6;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    </style>
 </head>
 <body>
 
@@ -28,24 +46,38 @@
     <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-content">
-            <img src="assets/images/about_1.jpg" alt="Hardik's profile picture" class="profile-img">
+            <div class="image-container">
+                <img src="assets/images/about_1.jpg" alt="Hardik's profile picture">
+            </div>
             <h2>Hello, I'm Hardik Sangwan</h2>
             <p>Machine Learning Engineer passionate about using technology for good, specializing in AI, sustainability, and cloud solutions.</p>
-            <a href="#projects" class="btn">Explore My Work</a>
+            <a href="projects.html" class="btn">Explore My Work</a>
         </div>
     </section>
 
     <!-- Image Collage -->
     <section class="image-collage">
         <div class="collage-row">
-            <img src="assets/images/about_2.jpg" alt="About work">
-            <img src="assets/images/coursework_grad_controls_1.png" alt="Graduate coursework controls">
-            <img src="assets/images/coursework_undergrad_AlgorithmAnalysis.png" alt="Algorithm Analysis coursework">
+            <div class="image-container">
+                <img src="assets/images/about_2.jpg" alt="About work">
+            </div>
+            <div class="image-container">
+                <img src="assets/images/coursework_grad_controls_1.png" alt="Graduate coursework controls">
+            </div>
+            <div class="image-container">
+                <img src="assets/images/coursework_undergrad_AlgorithmAnalysis.png" alt="Algorithm Analysis coursework">
+            </div>
         </div>
         <div class="collage-row">
-            <img src="assets/images/coursework_grad_projectmgmt_3.png" alt="Project Management coursework">
-            <img src="assets/images/coursework_grad_controls_2.png" alt="Controls coursework">
-            <img src="assets/images/coursework_grad_projectmgmt_4.png" alt="Detailed coursework">
+            <div class="image-container">
+                <img src="assets/images/coursework_grad_projectmgmt_3.png" alt="Project Management coursework">
+            </div>
+            <div class="image-container">
+                <img src="assets/images/coursework_grad_controls_2.png" alt="Controls coursework">
+            </div>
+            <div class="image-container">
+                <img src="assets/images/coursework_grad_projectmgmt_4.png" alt="Detailed coursework">
+            </div>
         </div>
     </section>
 
@@ -54,6 +86,5 @@
         <p>© 2024 Hardik Sangwan | <a href="mailto:hardik.sngn@gmail.com">Contact Me</a></p>
     </footer>
 
-    <script src="assets/js/script.js"></script>
 </body>
 </html>

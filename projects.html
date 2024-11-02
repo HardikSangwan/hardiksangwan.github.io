@@ -5,6 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects | Hardik Sangwan</title>
     <link rel="stylesheet" href="assets/css/styles.css">
+    <style>
+        .image-container {
+            width: 100%;
+            height: 200px;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 8px;
+            background-color: #f4f7f6;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    </style>
 </head>
 <body>
 
@@ -30,7 +49,9 @@
 
             <!-- Project: DemoEmoTechHS -->
             <div class="card">
-                <img src="assets/images/project_webrtcstream.png" alt="DemoEmoTechHS project">
+                <div class="image-container">
+                    <img src="assets/images/project_webrtcstream.png" alt="DemoEmoTechHS project">
+                </div>
                 <h3>DemoEmoTechHS - Audio Streaming Backend</h3>
                 <p>Developed a Java-based backend for handling real-time audio streaming, recording, and playback using Spring Boot. This project demonstrated efficient handling of high-volume audio data with low latency.</p>
                 <ul>
@@ -41,7 +62,9 @@
 
             <!-- Project: Facial Recognition Hackathon -->
             <div class="card">
-                <img src="assets/images/project_hytech_1.JPG" alt="Facial Recognition Hackathon project">
+                <div class="image-container">
+                    <img src="assets/images/project_hytech_1.JPG" alt="Facial Recognition Hackathon project">
+                </div>
                 <h3>Facial Recognition Hackathon</h3>
                 <p>Participated in a hackathon where I developed a facial recognition system using OpenCV for real-time image classification and tracking. This project showcased practical computer vision applications in real-world scenarios.</p>
                 <ul>
@@ -52,7 +75,9 @@
 
             <!-- Project: CUSP Data Dive -->
             <div class="card">
-                <img src="assets/images/project_cusp_data_dive.png" alt="CUSP Data Dive project">
+                <div class="image-container">
+                    <img src="assets/images/project_cusp_data_dive.png" alt="CUSP Data Dive project">
+                </div>
                 <h3>CUSP Data Dive</h3>
                 <p>Collaborated on the CUSP Data Dive project, analyzing complex data sets to generate impactful insights for social and environmental research. This project involved teamwork, advanced data analysis, and visualization.</p>
                 <ul>
@@ -63,7 +88,9 @@
 
             <!-- Volunteer Project -->
             <div class="card">
-                <img src="assets/images/hobbies_1.JPG" alt="Volunteer project image">
+                <div class="image-container">
+                    <img src="assets/images/hobbies_1.JPG" alt="Volunteer project image">
+                </div>
                 <h3>Volunteer Project - FruitPunch AI</h3>
                 <p>Contributed to the ‘AI against Carbon Impact’ initiative by developing machine learning models that estimate individual carbon footprints, aiding in the global push for environmental sustainability.</p>
                 <ul>
@@ -79,5 +106,6 @@
     <footer>
         <p>© 2024 Hardik Sangwan | <a href="mailto:hardik.sngn@gmail.com">Contact Me</a></p>
     </footer>
+
 </body>
 </html>

@@ -6,27 +6,22 @@
     <title>Academic & Research | Hardik Sangwan</title>
     <link rel="stylesheet" href="assets/css/styles.css">
     <style>
-        .research-item img,
-        .coursework-gallery img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin: 10px auto;
+        .image-container {
+            width: 100%;
+            height: 200px;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             border-radius: 8px;
+            background-color: #f4f7f6;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
-        .coursework-gallery {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 15px;
-            margin-top: 20px;
-        }
-        .additional-images img {
-            max-width: 80%;
-            height: auto;
-            margin: 10px auto;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+        .image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
         }
     </style>
 </head>
@@ -54,7 +49,9 @@
 
             <!-- Postgraduate Thesis -->
             <div class="research-item">
-                <img src="assets/images/research_thesis_1.png" alt="Thesis Image">
+                <div class="image-container">
+                    <img src="assets/images/research_thesis_1.png" alt="Thesis Image">
+                </div>
                 <h3>Postgraduate Thesis - Explainable AI for Medical Diagnosis</h3>
                 <p>Quantitative evaluation of explainable AI methods such as SHAP, LIME, and Integrated Gradients for skin cancer diagnosis models. Focused on enhancing the interpretability and trust in AI-based medical tools.</p>
                 <ul>
@@ -66,19 +63,25 @@
 
             <!-- Humor Genome Project -->
             <div class="research-item">
-                <img src="assets/images/research_brhml_1.png" alt="Humor Genome Project">
+                <div class="image-container">
+                    <img src="assets/images/research_humor_genome.png" alt="Humor Genome Project">
+                </div>
                 <h3>Humor Genome Project</h3>
                 <p>Developed classifiers and recommendation algorithms for analyzing humor using NLP and machine learning. This project aimed to identify patterns in humor to improve content recommendations.</p>
                 <a href="https://sites.gatech.edu/humorgenome/people/" target="_blank" class="btn">Project Details</a>
             </div>
 
-            <!-- Bio Robotics Lab -->
+            <!-- BioRobotics Human Modelling Lab -->
             <div class="research-item">
-                <img src="assets/images/research_brhml_2.png" alt="BioRobotics Lab">
+                <div class="image-container">
+                    <img src="assets/images/research_brhml_2.png" alt="BioRobotics Lab">
+                </div>
                 <h3>BioRobotics Human Modelling Lab</h3>
                 <p>Worked on developing a haptic lift assist device for General Motors to improve industrial assembly processes. Focused on human-machine interaction for enhanced safety and efficiency.</p>
                 <div class="additional-images">
-                    <img src="assets/images/research_brhml_3.png" alt="BioRobotics Lab work">
+                    <div class="image-container">
+                        <img src="assets/images/research_brhml_3.png" alt="BioRobotics Lab work">
+                    </div>
                 </div>
                 <a href="https://www.biorobotics.gatech.edu/wp/people/" target="_blank" class="btn">Lab Details</a>
             </div>
@@ -109,20 +112,33 @@
                 </li>
             </ul>
             <div class="coursework-gallery">
-                <img src="assets/images/coursework_grad_projectmgmt.png" alt="Project Management">
-                <img src="assets/images/coursework_grad_controls_1.png" alt="Controls">
-                <img src="assets/images/coursework_grad_controls_2.png" alt="Graduate Controls">
-                <img src="assets/images/coursework_grad_prodmgmt.png" alt="Product Management">
-                <img src="assets/images/coursework_grad_sensors.jpg" alt="Sensors">
-                <img src="assets/images/coursework_grad_projectmgmt_1.png" alt="Project Management coursework">
-                <img src="assets/images/coursework_grad_projectmgmt_2.png" alt="Project Management details">
-                <img src="assets/images/coursework_grad_projectmgmt_3.png" alt="Graduate coursework">
-                <img src="assets/images/coursework_grad_projectmgmt_4.png" alt="Detailed coursework">
-                <img src="assets/images/coursework_grad_projectmgmt_5.png" alt="Project Management graphic">
-                <img src="assets/images/coursework_undergrad_1.png" alt="Undergraduate coursework">
-                <img src="assets/images/coursework_undergrad_AlgorithmAnalysis.png" alt="Algorithm Analysis">
-                <img src="assets/images/coursework_undergrad_MLFinance.png" alt="ML for Finance">
-                <img src="assets/images/coursework_undergrad_controls.png" alt="Undergraduate Controls">
+                <div class="image-container">
+                    <img src="assets/images/coursework_grad_projectmgmt.png" alt="Project Management">
+                </div>
+                <div class="image-container">
+                    <img src="assets/images/coursework_grad_controls_1.png" alt="Controls coursework">
+                </div>
+                <div class="image-container">
+                    <img src="assets/images/coursework_grad_controls_2.png" alt="Graduate Controls">
+                </div>
+                <div class="image-container">
+                    <img src="assets/images/coursework_grad_prodmgmt.png" alt="Product Management coursework">
+                </div>
+                <div class="image-container">
+                    <img src="assets/images/coursework_grad_sensors.jpg" alt="Sensors coursework">
+                </div>
+                <div class="image-container">
+                    <img src="assets/images/coursework_undergrad_1.png" alt="Undergraduate coursework">
+                </div>
+                <div class="image-container">
+                    <img src="assets/images/coursework_undergrad_AlgorithmAnalysis.png" alt="Algorithm Analysis">
+                </div>
+                <div class="image-container">
+                    <img src="assets/images/coursework_undergrad_MLFinance.png" alt="Machine Learning for Finance">
+                </div>
+                <div class="image-container">
+                    <img src="assets/images/coursework_undergrad_controls.png" alt="Controls coursework">
+                </div>
             </div>
         </div>
     </section>
@@ -131,5 +147,6 @@
     <footer>
         <p>© 2024 Hardik Sangwan | <a href="mailto:hardik.sngn@gmail.com">Contact Me</a></p>
     </footer>
+
 </body>
 </html>

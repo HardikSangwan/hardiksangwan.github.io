@@ -5,6 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Work Experience | Hardik Sangwan</title>
     <link rel="stylesheet" href="assets/css/styles.css">
+    <style>
+        .image-container {
+            width: 100%;
+            height: 200px;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 8px;
+            background-color: #f4f7f6;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    </style>
 </head>
 <body>
 
@@ -27,7 +46,7 @@
         <div class="work-section">
             <h2>Work Experience</h2>
 
-            <!-- Exabler (No image used) -->
+            <!-- Machine Learning Engineer -->
             <div class="work-item">
                 <h3>Machine Learning Engineer - Exabler</h3>
                 <p>Developed cloud-agnostic AI pipelines using containerized microservices for optimizing global trade efficiency. Utilized LLM technologies to enhance data processing capabilities.</p>
@@ -38,41 +57,55 @@
 
             <!-- Product Engineer II -->
             <div class="work-item">
-                <img src="assets/images/work_greenwave_1.png" alt="GreenWave Electronics">
+                <div class="image-container">
+                    <img src="assets/images/work_greenwave_1.png" alt="GreenWave Electronics">
+                </div>
                 <h3>Product Engineer II - GreenWave Electronics</h3>
                 <p>Led IoT and robotic process automation (RPA) projects aimed at improving production capacity in electronics recycling. Implemented cloud-based solutions and automated image analysis tools.</p>
                 <ul>
                     <li><strong>Technologies:</strong> Python, AWS, IoT, RFID</li>
                 </ul>
                 <div class="additional-images">
-                    <img src="assets/images/work_greenwave_2.JPG" alt="GreenWave project">
+                    <div class="image-container">
+                        <img src="assets/images/work_greenwave_2.JPG" alt="GreenWave project">
+                    </div>
                 </div>
             </div>
 
             <!-- Engineering Apprentice -->
             <div class="work-item">
-                <img src="assets/images/work_homedepot_1.JPG" alt="Home Depot Work">
+                <div class="image-container">
+                    <img src="assets/images/work_homedepot_1.JPG" alt="Home Depot Work">
+                </div>
                 <h3>Engineering Apprentice - The Home Depot</h3>
                 <p>Conducted product teardowns and cost analysis, securing $2.5 million in savings. Assisted in developing data visualization tools using Tableau for supplier negotiations.</p>
                 <ul>
                     <li><strong>Technologies:</strong> Tableau, SQL, Data Analysis</li>
                 </ul>
                 <div class="additional-images">
-                    <img src="assets/images/work_homedepot_benchmarking.png" alt="Benchmarking work">
-                    <img src="assets/images/work_homedepot_costing.png" alt="Costing analysis">
+                    <div class="image-container">
+                        <img src="assets/images/work_homedepot_benchmarking.png" alt="Benchmarking work">
+                    </div>
+                    <div class="image-container">
+                        <img src="assets/images/work_homedepot_costing.png" alt="Costing analysis">
+                    </div>
                 </div>
             </div>
 
             <!-- Startup Incubator Participant -->
             <div class="work-item">
-                <img src="assets/images/work_incubator_1.JPG" alt="Create-X Incubator">
+                <div class="image-container">
+                    <img src="assets/images/work_incubator_1.JPG" alt="Create-X Incubator">
+                </div>
                 <h3>Co-Founder - Create-X Startup Incubator</h3>
                 <p>Co-founded Luddite Tech and developed password guessability models using RNNs. Participated in customer discovery and investor pitching through Georgia Tech’s Create-X program.</p>
                 <ul>
                     <li><strong>Technologies:</strong> Python, Keras, RNN</li>
                 </ul>
                 <div class="additional-images">
-                    <img src="assets/images/work_incubator_1.png" alt="Incubator project">
+                    <div class="image-container">
+                        <img src="assets/images/work_incubator_1.png" alt="Incubator project">
+                    </div>
                 </div>
             </div>
         </div>
@@ -82,5 +115,6 @@
     <footer>
         <p>© 2024 Hardik Sangwan | <a href="mailto:hardik.sngn@gmail.com">Contact Me</a></p>
     </footer>
+
 </body>
 </html>
