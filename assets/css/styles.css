@@ -1,140 +1,29 @@
-/* General Styles */
+/* Updated Color Scheme */
 body {
     font-family: 'Helvetica Neue', sans-serif;
-    font-weight: 400;
-    color: #333; /* Muted dark gray */
-    background-color: #f8f8f8; /* Light neutral gray */
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
+    color: #2F4F4F; /* Dark slate gray for primary text */
+    background-color: #F5FFFA; /* Mint cream for background */
 }
 
-h1, h2, h3 {
-    font-weight: 500;
-    color: #1A1A1A; /* Sleek dark gray */
-}
-
-/* Navigation Styles */
 header nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 1.5rem 2rem;
-    background-color: #FFFFFF; /* White for clean minimalist look */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow for modern feel */
-}
-
-header nav ul {
-    display: flex;
-    list-style: none;
-    gap: 2rem;
-    margin: 0;
-}
-
-header nav a {
-    color: #333;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 1rem;
-}
-
-header nav a:hover {
-    color: #0077B5; /* Subtle hover effect in LinkedIn blue */
-}
-
-/* Profiles Section */
-#profiles {
-    padding: 4rem 2rem;
-    background-color: #F0F0F0; /* Very light gray for contrast */
-    text-align: center;
-}
-
-.profiles-container {
-    display: flex;
-    justify-content: space-around;
-    gap: 2rem;
-    flex-wrap: wrap;
-}
-
-.profile {
-    background-color: #fff;
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 350px;
-    flex-grow: 1;
-}
-
-.profile h2 {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-    color: #1A1A1A;
-}
-
-.profile p {
-    font-size: 1rem;
-    color: #666;
-}
-
-.btn {
-    display: inline-block;
-    padding: 0.7rem 2rem;
-    border-radius: 5px;
-    font-weight: 500;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
+    background-color: #E0F7FA; /* Light cyan for header */
+    color: #004D40; /* Dark green for text */
 }
 
 .btn-primary {
-    background-color: #0077B5; /* Muted LinkedIn Blue */
+    background-color: #00796B; /* Teal */
     color: white;
 }
 
 .btn-primary:hover {
-    background-color: #005f99;
+    background-color: #004D40; /* Dark green */
 }
 
 .btn-secondary {
-    background-color: #333; /* Dark muted gray for GitHub */
+    background-color: #2F4F4F; /* Dark slate gray */
     color: white;
 }
 
 .btn-secondary:hover {
-    background-color: #1A1A1A;
-}
-
-/* Hero Section */
-.hero {
-    background: url('assets/images/hero-placeholder.jpg') center/cover no-repeat;
-    padding: 6rem 2rem;
-    text-align: center;
-    color: #FFF;
-    background-color: #1A1A1A; /* Dark background as fallback */
-}
-
-.hero h2 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-}
-
-.hero p {
-    max-width: 600px;
-    margin: auto;
-    font-size: 1.2rem;
-}
-
-/* Footer */
-footer {
-    background-color: #F8F8F8;
-    padding: 1.5rem;
-    text-align: center;
-    color: #666;
-}
-
-footer a {
-    color: #1A1A1A;
-    text-decoration: none;
-}
-
-footer a:hover {
-    text-decoration: underline;
+    background-color: #004D40; /* Dark green */
 }
