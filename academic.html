@@ -5,6 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Academic & Research | Hardik Sangwan</title>
     <link rel="stylesheet" href="assets/css/styles.css">
+    <style>
+        .research-item img,
+        .coursework-gallery img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .coursework-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .additional-images img {
+            max-width: 80%;
+            height: auto;
+            margin: 10px auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
 </head>
 <body>
 
@@ -27,7 +51,7 @@
     <section id="academic-research">
         <div class="research-section">
             <h2>Academic & Research</h2>
-            
+
             <!-- Postgraduate Thesis -->
             <div class="research-item">
                 <img src="assets/images/research_thesis_1.png" alt="Thesis Image">
@@ -37,11 +61,6 @@
                     <li><strong>Technologies:</strong> TensorFlow, Python, SHAP, LIME</li>
                     <li><strong>Impact:</strong> Improved model transparency in clinical settings.</li>
                 </ul>
-                <div class="additional-images">
-                    <img src="assets/images/research_thesis_2.png" alt="Thesis work">
-                    <img src="assets/images/research_thesis_3.png" alt="Thesis research">
-                    <img src="assets/images/research_thesis_4.png" alt="Thesis image">
-                </div>
                 <a href="assets/docs/Thesis_Report_HS.pdf" target="_blank" class="btn">Read Thesis</a>
             </div>
 
@@ -62,6 +81,48 @@
                     <img src="assets/images/research_brhml_3.png" alt="BioRobotics Lab work">
                 </div>
                 <a href="https://www.biorobotics.gatech.edu/wp/people/" target="_blank" class="btn">Lab Details</a>
+            </div>
+        </div>
+
+        <!-- Coursework Section -->
+        <div class="coursework-section">
+            <h3>Notable Coursework</h3>
+            <p>Throughout my academic career at King’s College London and Georgia Institute of Technology, I completed comprehensive coursework that strengthened my technical and management skills:</p>
+            <ul>
+                <li><strong>Graduate Coursework (King's College London):</strong>
+                    <ul>
+                        <li>Advanced Machine Learning for Engineers</li>
+                        <li>Systems and Controls</li>
+                        <li>Project Management</li>
+                        <li>Product Management</li>
+                        <li>Intelligence and Autonomy</li>
+                    </ul>
+                </li>
+                <li><strong>Undergraduate Coursework (Georgia Institute of Technology):</strong>
+                    <ul>
+                        <li>Machine Learning and Applications</li>
+                        <li>Algorithms and Data Structures</li>
+                        <li>System Design and Modelling</li>
+                        <li>Embedded Systems</li>
+                        <li>Automata and Complexity Theory (CS 4510)</li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="coursework-gallery">
+                <img src="assets/images/coursework_grad_projectmgmt.png" alt="Project Management">
+                <img src="assets/images/coursework_grad_controls_1.png" alt="Controls">
+                <img src="assets/images/coursework_grad_controls_2.png" alt="Graduate Controls">
+                <img src="assets/images/coursework_grad_prodmgmt.png" alt="Product Management">
+                <img src="assets/images/coursework_grad_sensors.jpg" alt="Sensors">
+                <img src="assets/images/coursework_grad_projectmgmt_1.png" alt="Project Management coursework">
+                <img src="assets/images/coursework_grad_projectmgmt_2.png" alt="Project Management details">
+                <img src="assets/images/coursework_grad_projectmgmt_3.png" alt="Graduate coursework">
+                <img src="assets/images/coursework_grad_projectmgmt_4.png" alt="Detailed coursework">
+                <img src="assets/images/coursework_grad_projectmgmt_5.png" alt="Project Management graphic">
+                <img src="assets/images/coursework_undergrad_1.png" alt="Undergraduate coursework">
+                <img src="assets/images/coursework_undergrad_AlgorithmAnalysis.png" alt="Algorithm Analysis">
+                <img src="assets/images/coursework_undergrad_MLFinance.png" alt="ML for Finance">
+                <img src="assets/images/coursework_undergrad_controls.png" alt="Undergraduate Controls">
             </div>
         </div>
     </section>
