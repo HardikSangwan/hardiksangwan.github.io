@@ -217,6 +217,51 @@ h1, h2, h3 {
     padding: 1rem;
 }
 
+.research-section, .coursework-section {
+    margin: 30px auto;
+    padding: 20px;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Individual research item */
+.research-item, .coursework-gallery {
+    margin-bottom: 40px;
+}
+
+.research-item h3, .coursework-section h3 {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.research-item p, .coursework-section p {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.research-item ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.research-item ul li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.coursework-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
 /* Buttons */
 .btn {
     display: inline-flex;
