@@ -113,6 +113,13 @@ h1, h2, h3 {
     transition: var(--transition-smooth);
 }
 
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
 #work-experience {
     display: flex;
     flex-direction: column;
@@ -139,6 +146,11 @@ h1, h2, h3 {
 
 .work-item h3 {
     margin-top: 0; /* Remove extra margin from headings */
+    color: #333; /* Add a darker color for headings */
+}
+
+.work-item p {
+    margin: 10px 0; /* Add space between paragraphs */
     color: #333; /* Add a darker color for headings */
 }
 
