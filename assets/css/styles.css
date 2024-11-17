@@ -113,6 +113,48 @@ h1, h2, h3 {
     transition: var(--transition-smooth);
 }
 
+.work-item h3 {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.work-item p {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.work-item ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.work-item ul li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+#work-experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.work-section {
+    width: 100%;
+    max-width: 800px; /* Limit the width for readability */
+    margin: 0 auto; /* Center-align section */
+}
+
+.work-item {
+    margin-bottom: 40px; /* Add space between work items */
+}
+
 .image-collage {
     display: flex;
     flex-direction: column;
