@@ -131,7 +131,7 @@ h1, h2, h3 {
 
 .work-section {
     width: 100%;
-    max-width: 800px; /* Limit the width for readability */
+    max-width: 1000px; /* Limit the width for readability */
     margin: 0 auto; /* Center-align section */
 }
 
@@ -157,10 +157,12 @@ h1, h2, h3 {
 .work-item ul {
     list-style: none; /* Remove default bullet points */
     padding: 0;
+    color: #333;
 }
 
 .work-item ul li {
     margin-bottom: 10px; /* Add space between list items */
+    color: #333;
 }
 
 .image-collage {
