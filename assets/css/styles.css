@@ -113,29 +113,6 @@ h1, h2, h3 {
     transition: var(--transition-smooth);
 }
 
-.work-item h3 {
-    margin-top: 20px;
-    font-size: 18px;
-    font-weight: bold;
-}
-
-.work-item p {
-    margin-top: 10px;
-    font-size: 16px;
-    line-height: 1.5;
-}
-
-.work-item ul {
-    list-style: none;
-    padding: 0;
-    margin: 10px 0;
-}
-
-.work-item ul li {
-    font-size: 16px;
-    margin-bottom: 5px;
-}
-
 #work-experience {
     display: flex;
     flex-direction: column;
@@ -152,7 +129,26 @@ h1, h2, h3 {
 }
 
 .work-item {
-    margin-bottom: 40px; /* Add space between work items */
+    margin: 30px 0; /* Add space between work items */
+    padding: 20px; /* Add padding inside each work section */
+    border: 1px solid #ddd; /* Add a light border around each section */
+    border-radius: 8px; /* Round the corners for a polished look */
+    background-color: #f9f9f9; /* Light background for contrast */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+}
+
+.work-item h3 {
+    margin-top: 0; /* Remove extra margin from headings */
+    color: #333; /* Add a darker color for headings */
+}
+
+.work-item ul {
+    list-style: none; /* Remove default bullet points */
+    padding: 0;
+}
+
+.work-item ul li {
+    margin-bottom: 10px; /* Add space between list items */
 }
 
 .image-collage {
