@@ -223,6 +223,7 @@ h1, h2, h3 {
     max-width: 1200px;
     background-color: #fff;
     border-radius: 8px;
+    color: #333;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -242,17 +243,20 @@ h1, h2, h3 {
     margin-top: 10px;
     font-size: 16px;
     line-height: 1.5;
+    color: #333;
 }
 
 .research-item ul {
     list-style: none;
     padding: 0;
     margin: 10px 0;
+    color: #333;
 }
 
 .research-item ul li {
     font-size: 16px;
     margin-bottom: 5px;
+    color: #333;
 }
 
 .coursework-gallery {
@@ -260,6 +264,7 @@ h1, h2, h3 {
     flex-wrap: wrap;
     gap: 15px;
     justify-content: center;
+    color: #333;
 }
 
 /* Buttons */
