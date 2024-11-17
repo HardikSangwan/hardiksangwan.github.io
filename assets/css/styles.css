@@ -113,6 +113,21 @@ h1, h2, h3 {
     transition: var(--transition-smooth);
 }
 
+.image-collage {
+    display: flex;
+    flex-direction: column;
+    gap: 16px; /* Space between rows */
+    margin: 32px auto; /* Center and add vertical space around the collage */
+    max-width: 1200px; /* Limit maximum width */
+    padding: 0 16px; /* Add padding on smaller screens */
+}
+
+.collage-row {
+    display: flex;
+    justify-content: center; /* Center images in the row */
+    gap: 16px; /* Space between images */
+}
+
 /* Additional images styling */
 .additional-images img {
     width: 80%;
