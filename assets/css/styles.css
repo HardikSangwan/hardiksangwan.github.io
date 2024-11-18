@@ -274,7 +274,7 @@ h1, h2, h3 {
     padding: 0.8rem 1.6rem;
     border-radius: 980px;
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
     background-color: var(--primary-color);
     margin-top: 1rem;
     font-weight: 500;
