@@ -274,8 +274,8 @@ h1, h2, h3 {
     padding: 0.8rem 1.6rem;
     border-radius: 980px;
     text-decoration: none;
-    color: rgb(255, 255, 255);
-    background-color: var(--primary-color);
+    color: var(--primary-color);
+    background-color: var(--background-light);
     margin-top: 1rem;
     font-weight: 500;
     font-size: 0.9rem;
